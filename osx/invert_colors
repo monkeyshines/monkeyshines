@@ -1,0 +1,7 @@
+osascript -e '
+  tell application "System Events"
+      key code 28 using ¬
+          {control down, option down, command down}
+  end tell
+'
+
