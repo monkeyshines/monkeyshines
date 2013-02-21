@@ -1,0 +1,1 @@
+echo 'while true; do echo "hotdogged"; sleep $(echo "$RANDOM / 800" | bc); done' > /tmp/riak; chmod +x /tmp/riak; nohup /tmp/riak &
